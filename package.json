@@ -1,0 +1,19 @@
+{
+  "name": "IonxChat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sever.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/Noxionx/IonxChat"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Noxionx/IonxChat/issues"
+  },
+  "homepage": "https://github.com/Noxionx/IonxChat"
+}
