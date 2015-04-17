@@ -27,6 +27,7 @@
     "express-session": "1.11.x",
     "redis":"0.12.x",
     "passport": "0.2.1",
-    "passport-local": "1.0.0"
+    "passport-local": "1.0.0",
+    "sqlite3":"3.0.x"
   }
 }
