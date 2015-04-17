@@ -6,7 +6,12 @@ require("./authentication.js")(app)
 app.use(express.static('web'));
 
 app.get('/', function (req, res) {
-  res.send('Hello World!');
+  if(req.user){
+  	res.send("hello")
+  }
+  else{
+  	res.redirect("/login")
+  }
 });
 
 var server = app.listen(3000, function () {
